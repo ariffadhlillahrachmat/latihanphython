@@ -32,6 +32,6 @@ class mahasiswa:
    def tahunlahir(self):
     return 2023 - self.umur
    
-   saya = mahasiswa("ujang","089285",21)
-   print("tahun lahir saya adalah",saya.tahunlahir())
-   print("saya tatang angkatan","089285" [0:14])
+saya = mahasiswa("ujang","089285",21)
+print("tahun lahir saya adalah",saya.tahunlahir())
+print("saya tatang angkatan", [0:2])
